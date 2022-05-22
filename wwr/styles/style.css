@@ -106,3 +106,7 @@ h2 {
 .card-img{
     border : 10px solid black
 }
+.logo{
+    width: 100px;
+    height: auto;
+}
