@@ -6,18 +6,30 @@ nav a{
     text-align: center;
     color:#fff;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .button-box{
     text-align: center;
 }
 main section{
     text-align: center;
+    
+}
+main section img{
+    
+    box-sizing: border-box;
 }
 body{
     background-color: #fcfbfb; 
+    font-size: 22px;
+    font-family: Raleway, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: #2B3A67;
@@ -29,23 +41,39 @@ nav a:hover{
 .book, .join{
     background-color:#2B3A67;
     color: #fff;
+    font-size: 2em;
+    padding: 15px 30px;
+    border-radius : 5px ;
+    margin-top: 50px;
 }
 .book:hover, .join:hover{
     background-color:#fff;
     color: #2B3A67;
+    
 }
 #background {
     height: 725px;
     background-color:#B3AF8F;
     color:#fff;
 }
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 .msg{
     background-color:#B3AF8F;
     color:#fff;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p{
+   font-size: 8em;
+   padding-bottom: 15px;
 }
 footer{
     background-color: #2B3A67;
     color:#fff;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     background-color: #2B3A67;
@@ -54,6 +82,26 @@ footer a{
 footer h3 a:hover{
     text-decoration: underline;
 }
+footer .social img{
+    text-decoration: underline;
+    padding-top: 15px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h2 {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.card-img{
+    border : 10px solid black
 }
