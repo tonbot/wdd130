@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+.footer_mother_container{
+    
+    background: rgb(88, 3, 88);
+    width: 100vws;
+    margin-top: 70px;
+    color: #fff;
+    padding:70px;
+    padding-left: 150px;
+}
+.col-sm-5{
+    line-height: 50px;
+}
+.col-sm-3{
+    line-height: 50px;
+}
+.col-sm-4{
+    line-height: 50px;
+}
+
+.col-sm-5>:nth-child(1){
+     font-weight: bold;
+     font-size: 19px;
+}
+.col-sm-3>:nth-child(1){
+    font-weight: bold;
+    font-size: 19px;  
+}
+.col-sm-4>:nth-child(1){
+    font-weight: bold;
+    font-size: 19px;
+}
+.footer_mother_container  a{
+    color:#fff
+}
+.footer_mother_container a:hover{
+    color:rgba(255, 255, 255, 0.774)
+}
+#copyright{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 150px;
+}

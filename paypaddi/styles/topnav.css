@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+.topnav{
+   /* padding: 20px 0px 20px ;*/
+   margin-bottom: 0px;
+
+   width: 100vw;
+   position: fixed;
+   z-index: 1000;
+}
+.topnav ul {
+    list-style: none;
+    display: flex;
+}
+ .li_logo_container{
+    position: absolute;
+    top: 22px;
+    left:80px;
+}
+.li_navlink_container{
+    position: relative;
+    left:600px;
+    
+  
+}
+.li_navlink_container ul li {
+    margin-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.li_navlink_container ul li:hover{
+    background-color:  rgba(255, 165, 0, 0.6) ;
+   
+}
+.li_navlink_container ul li a {
+    text-decoration: none;
+    color: rgb(88, 3, 88);
+    font-size: 15px;
+    font-weight: bold;
+}
+.get_started{
+    position: absolute;
+    padding: 10px ;
+    background: orange;
+    border-radius: 10px;
+    color:  rgb(88, 3, 88);
+    left:1200px;
+    top:10px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+}
