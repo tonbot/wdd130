@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+   
+}
+body {
+    font-family: 'Muli', sans-serif;
+  
+    overflow-x: hidden;
+    background-color: #e5e5e534;
+   
+}
+
+.oval {
+    height: 50px;
+    /* background-color: #555; */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+     margin-top: 0px;
+     position: relative;
+     top:-8px;
+     height:200px;
+    width: 100vw;
+    padding: 100px;
+    color: white;
+    /* background: rgb(88, 3, 88); */
+    background-image: url("/paypaddi/image/bg2.jpg");
+    background-size: cover;
+      background-repeat: no-repeat;
+   /* // background-position: center; */
+
+    text-align: center;
+  }
+  .oval span{
+      font-weight: bold;
+      font-size: 40px;
+      
+  }
+  .circle {
+   
+    background-color:#fff;
+    color:purple;
+    border-radius: 50%;
+    position: relative;
+     top:-50px;
+     left:650;
+  }
+  .form_container{
+      text-align: center;
+      padding-left: 300px;
+      padding-right: 300px;
+      background-image: url("/paypaddi/image/bg51.png");
+      background-position: center;
+      background-size: 100;
+      background-repeat: no-repeat;
+     
+  }
+  .form_container >div{
+       text-align: left; 
+
+  }
+  input[type="text"]{
+      width: 100%;
+      padding:10px;
+      border:1px solid purple;
+      border-radius:5px;
+      font-weight: bold;
+  }
+  input[type=text]:focus{
+    outline: none;
+    border:2px solid purple;
+}
+  textarea{
+    width: 100%;
+    padding-left: 10px;
+    border:1px solid purple;
+    border-radius:5px;
+  }
+  textarea:focus{
+    outline: none;
+    border:2px solid purple;
+}
+  label{
+      color: purple;
+  }
+  button{
+    padding:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:orange;
+    color:black;
+    border: none;
+    font-weight: bold;
+    border-radius:5px;
+
+  }
+  #note{
+    padding-top: 20px;
+    font-size: 16px;
+  }
+  #status{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align:center;
+    font-size: 15px;
+    color:#fff;
+    background-color:purple;
+  }

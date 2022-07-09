@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+   
+}
+body {
+    font-family: 'Muli', sans-serif;
+  
+    overflow-x: hidden;
+    background-image: url("/paypaddi/image/bg7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.oval {
+    height: 50px;
+    background-color: #555;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+     margin-top: 0px;
+     position: relative;
+     top:-8px;
+     height:200px;
+    width: 100vw;
+    padding: 100px;
+    color: white;
+    background: rgb(88, 3, 88);
+    text-align: center;
+  }
+  .oval span{
+      font-weight: bold;
+      font-size: 40px;
+  }
+  .circle {
+   
+    background-color:#fff;
+    color:purple;
+    border-radius: 50%;
+    position: relative;
+     top:-50px;
+     left:650;
+  }
+  .section2_container{
+      padding-left: 300px;
+      padding-right: 300px;
+
+  }
+  .payment>:first-child {
+    font-weight: bold;
+    font-size: 20px;
+    color: orange;
+    
+}
+.payment>:nth-child(2) {
+    font-size: 20px;
+    line-height: 30px;
+}
+ul {
+    font-size: 15px;
+    line-height: 30px;
+}
+.section4_container>:nth-child(1){
+    color:orange;
+    text-align: center;  
+    font-size: 40px;
+    padding-top: 70px;
+}
+.section4_container>:nth-child(2){
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+}
+.section4_container>:nth-child(3){
+    text-align: center;
+    padding-top: 40px;
+}
+.section4_container>:nth-child(3)>a{
+    border-radius: 50px;
+    padding: 20px;
+    background-color: purple;
+    color:#fff;
+
+}
+.section4_container>:nth-child(3)>a:hover{
+    opacity: 0.5;
+    background-color: purple;
+    color:#fff;
+
+}

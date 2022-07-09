@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+*{
+   margin: 0px;
+   padding: 0px;
+   
+}
+body {
+    font-family: 'Muli', sans-serif;
+  
+    overflow-x: hidden;
+    /* background-color: #e5e5e534; */
+    background-image: url("/paypaddi/image/bg51.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.oval {
+    height: 50px;
+    /* background-color: #555; */
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+     margin-top: 0px;
+     position: relative;
+     top:-8px;
+     height:200px;
+    width: 100vw;
+    padding: 100px;
+    color: white;
+    /* background: rgb(88, 3, 88); */
+    background-image: url("/paypaddi/image/bg2.jpg");
+    background-size: cover;
+      background-repeat: no-repeat;
+   /* // background-position: center; */
+
+    text-align: center;
+  }
+  .oval p{
+      font-weight: bold;
+      font-size: 40px;
+  }
+  .circle {
+   
+    background-color:#fff;
+    color:purple;
+    border-radius: 50%;
+    position: relative;
+     top:-50px;
+     left:650;
+  }
+.section2_container{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+#title{
+    font-size: 15px;
+    font-weight: bold;
+    color:orange;
+
+}
+.link_nav{
+    font-size: 15px;
+}
+.link_nav a{
+ color: purple;
+}
+#about-us{
+
+    font-size: 30px;
+    font-weight: bold;
+    color:orange;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+}
+#vision{
+
+    font-size: 30px;
+    font-weight: bold;
+    color:orange;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+}
+#mission{
+
+    font-size: 30px;
+    font-weight: bold;
+    color:orange;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+}
+.content{
+    font-size: 15px;
+    line-break: 20px;
+    padding-bottom: 60px;
+}
+
+.section4_container>:nth-child(1){
+    color:orange;
+    font-size: 40px;
+    text-align: center;
+}
+.section4_container>:nth-child(2){
+    padding-left: 100px;
+    padding-right:100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    text-align: center;
+}
+#meet-our-team{
+    font-size: 50px;
+    font-weight: bold;
+    color:orange;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.section5_container{
+  margin-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    background-color:#000;
+}
+.ourimage {
+     border-radius: 50%;
+     width:150px;
+     height: 150px;
+     color:#fff
+  }
+  .colcol>:nth-child(1){
+      margin-top: -50px;
+  }
+  .colcol >:nth-child(2){
+     color: #fff;
+     font-size: 15px;
+   
+  }
+  .colcol >:nth-child(3){
+    color: orange;
+    margin-top: -40px;
+    font-size: 13px;
+  
+ }
