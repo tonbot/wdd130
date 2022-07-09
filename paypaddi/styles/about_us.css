@@ -10,7 +10,7 @@ body {
   
     overflow-x: hidden;
     /* background-color: #e5e5e534; */
-    background-image: url("/paypaddi/image/bg51.png");
+    background-image: url("/wdd130/paypaddi/image/bg51.png");
     background-size: cover;
     background-repeat: no-repeat;
    
@@ -29,7 +29,7 @@ body {
     padding: 100px;
     color: white;
     /* background: rgb(88, 3, 88); */
-    background-image: url("/paypaddi/image/bg2.jpg");
+    background-image: url("/wdd130/paypaddi/image/bg2.jpg");
     background-size: cover;
       background-repeat: no-repeat;
    /* // background-position: center; */

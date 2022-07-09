@@ -140,7 +140,7 @@ body {
 }
 #container-bg{
    
-    background-image: url("/paypaddi/image/bg3.png");
+background-image: url("wdd130/paypaddi/image/bg3.png");
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
