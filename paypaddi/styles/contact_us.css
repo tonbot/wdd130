@@ -26,7 +26,7 @@ body {
     padding: 100px;
     color: white;
     /* background: rgb(88, 3, 88); */
-    background-image: url("/paypaddi/image/bg2.jpg");
+    background-image: url("/wdd130/paypaddi/image/bg2.jpg");
     background-size: cover;
       background-repeat: no-repeat;
    /* // background-position: center; */
@@ -51,7 +51,8 @@ body {
       text-align: center;
       padding-left: 300px;
       padding-right: 300px;
-      background-image: url("/paypaddi/image/bg51.png");
+      background-image: url("/wdd130/paypaddi/image/bg51.png");
+
       background-position: center;
       background-size: 100;
       background-repeat: no-repeat;
